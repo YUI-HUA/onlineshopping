@@ -1,0 +1,322 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 219px;
+    margin-top: 10px;
+}
+.focus {
+    position: relative;
+    width: 720px;
+    height: 455px;
+    background-color: purple;
+    overflow: hidden;
+}
+.focus-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 600%;
+}
+.focus-img li {
+    float: left;
+}
+.focus-img li a img {
+    width: 720px;
+    height: 455px;
+}
+.arrow-l,
+.arrow-r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'icomoon';
+    z-index: 2;
+}
+.arrow-r{
+    right: 0;
+}
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    /* background-color: #fff; */
+    border: 2px solid rgba(255, 255, 255, .5);
+    margin: 0 3px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.current {
+    background-color: #fff;
+}
+.newsflash {
+    width: 250px;
+    height: 455px;
+}
+.news {
+    height: 163px;
+    border: 1px solid #ccc;
+}
+.news-hd {
+    height: 32px;
+    border-bottom: 1px dotted #ccc;
+    font-size: 14px;
+    line-height: 32px;
+    padding: 0 15px;
+}
+.news-hd a {
+    float: right;
+    font-size: 12px;
+    font-family: 'icomoon';
+}
+.news-bd {
+    padding: 10px 0 0 15px;
+}
+.news-bd .news_list .news_item {
+    height: 22px;
+}
+.news-bd .news_list .news_item a {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.lifeservice {
+    overflow: hidden;
+    height: 208px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.lifeservice ul{
+    width: 252px;
+}
+.lifeservice li {
+    position: relative;
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.lifeservice li a {
+    display: block;
+    /* 解决i引起的 外边距塌陷合并 问题 */
+    overflow: hidden;
+    height: 100%;
+}
+.lifeservice li p {
+    text-align: center;
+}
+.service_ico {
+    display: block;
+    background: url(../img/icons.png) no-repeat;
+    width: 24px;
+    height: 24px;
+    margin: 10px auto;
+}
+.service_ico_hf {
+    background-position: -17px -16px;
+}
+.service_ico_fj {
+    width: 26px;
+    background-position: -78px -16px;
+}
+.service_ico_dyp {
+    background-position: -141px -16px;
+}
+.service_ico_yx {
+    width: 26px;
+    background-position: -206px -16px;
+}
+.service_ico_cp {
+    width: 26px;
+    background-position: -17px -87px;
+}
+.service_ico_jyk {
+    width: 26px;
+    background-position: -77px -87px;
+}
+.service_ico_jd {
+    background-position: -141px -88px;
+}
+.service_ico_hcp {
+    width: 26px;
+    background-position: -205px -88px;
+}
+.service_ico_zc {
+    background-position: -17px -159px;
+}
+.service_ico_lc {
+    width: 26px;
+    background-position: -78px -159px;
+}
+.service_ico_lpk {
+    background-position: -141px -158px;
+}
+.service_ico_bt {
+    width: 26px;
+    background-position: -206px -158px;
+}
+.hot{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 12px;
+    height: 15px;
+    background: url(../img/jian.png) no-repeat;
+}
+.bargin {
+    height: 75px;
+    margin-top: 5px;
+}
+.recommend {
+    height: 163px;
+    margin-top: 10px;
+}
+.recom-hd {
+    width: 200px;
+    height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+}
+.recom-hd img {
+    margin: 30px 0 10px 0;
+}
+.recom-hd h3 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+}
+.recom-bd {
+    width: 1000px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+.recom-bd li {
+    float: left;
+    width: 249px;
+    height: 145px;
+    border-right: 1px solid #ccc;
+    margin-top: 10px;
+}
+.recom-bd img {
+    width: 100%;
+    height: 100%;
+}
+.recom-bd .last {
+    border-right: 0;
+}
+/* fllor */
+.box-hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+    margin-top: 25px;
+}
+.box-hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    line-height: 30px;
+    margin-left: 10px;
+}
+.tab-list {
+    float: right;
+    line-height: 30px;
+}
+.tab-list li {
+    float: left;  
+}
+.tab-list li a {
+    margin: 0 15px;
+}
+.box-bd {
+    height: 360px;
+}
+.w209 {
+    width: 209px; 
+    background-color: #f9f9f9;
+}
+.w329 {
+    width: 329px;
+}
+.w219 {
+    width: 219px;
+    border-right: 1px solid #ccc;
+}
+.w220 {
+    width: 220px;
+    border-right: 1px solid #ccc;
+}
+.tab-con {
+    display: none;
+}
+.tab-con li {
+    float: left;
+    height: 360px;
+}
+.tab-con-item {
+    border-bottom: 1px solid #ccc;
+}
+.tab-con-list {
+    /* 清除浮动导致的塌陷问题 */
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.tab-con-list li {
+    width: 86px;
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px solid #ccc;
+    margin-left: 10px;
+    text-align: center;
+} 
+.box-bd li {
+    overflow: hidden;
+}
+.box-bd img {
+    /* 过度写在本身上 谁做动画 给谁加 */
+    transition: all .2s;
+}
+/* 鼠标经过图片 往右走8px */
+.box-bd img:hover {
+    margin-left: 8px;
+}
+.fixedtool {
+    /* 固定定位 随屏幕滑动 */
+    /* position: fixed; */
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    margin-left: -676px;
+    width: 66px;
+}
+.fixedtool li {
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    /* 鼠标变小手 */
+    cursor: pointer;
+    background-color: #fff;
+}
+.fixedtool .current {
+    background-color: #c81623;
+    color: #fff;
+}
+.goBack {
+    display: none;
+    color: #c81623;
+}
